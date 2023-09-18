@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Manager Studio</string>
+    <string name="submit">submit</string>
+    <string name="password">Senha</string>
+    <string name="nome">Nome</string>
+    <string name="descricao">Descrição</string>
+    <string name="porcentagem">Porcentagem</string>
+    <string name="preco">Preço</string>
+    <string name="email">E-mail</string>
+    <string name="lugar">De onde veio?</string>
+    <string name="obs">Observação</string>
+    <string name="celular">Celular</string>
+    <string name="cpf">CPF</string>
+    <string name="nascimento">Data De Nascimento</string>
+    <string name="adm">Administrativo</string>
+    <string name="produtoAtivo">Produto Ativo?</string>
+    <string name="cnpj">CNPJ</string>
+    <string name="email_cpf">E-mail/CPF</string>
+    <string name="cadastro_sucess">Cadastrado Com Sucesso</string>
+    <string name="cadastro_failed">Falha ao Cadastrar Campos Invalidos</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="salvar">Salvar</string>
+    <string name="cliente">Cliente</string>
+    <string name="funcionario">Funcionario</string>
+    <string name="serviço">Serviço</string>
+    <string name="produto">Produto</string>
+    <string name="cozinha">Cozinha</string>
+</resources>

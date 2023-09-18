@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCliente"
+            android:backgroundTint="@color/violet"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:text="@string/cliente" />
+
+        <Button
+            android:id="@+id/btnFuncionario"
+            android:backgroundTint="@color/violet"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:text="@string/funcionario" />
+
+        <Button
+            android:id="@+id/btnServico"
+            android:backgroundTint="@color/violet"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:text="@string/serviço" />
+
+        <Button
+            android:id="@+id/btnProduto"
+            android:backgroundTint="@color/violet"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:text="@string/produto" />
+
+        <Button
+            android:id="@+id/btnCozinha"
+            android:backgroundTint="@color/violet"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:text="@string/cozinha" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/submit"
+        android:src="@drawable/ic_config"
+        android:backgroundTint="@color/violet"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
